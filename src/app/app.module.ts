@@ -9,6 +9,7 @@ import { ShoppingListComponent } from './ShoppingList/shopping-list.component';
 import { ShoppingListEditComponent } from './ShoppingList/shopping-list-edit/shopping-list-edit.component';
 import {HeaderComponent} from './Header/header.component';
 import {RecipesComponent} from './Recipes/recipes.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 
 
@@ -21,7 +22,8 @@ import {RecipesComponent} from './Recipes/recipes.component';
     ShoppingListComponent,
     ShoppingListEditComponent,
     HeaderComponent,
-    RecipesComponent
+    RecipesComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule
